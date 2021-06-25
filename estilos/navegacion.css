@@ -1,0 +1,10 @@
+.navegacion {
+  border: 2px solid red;
+}
+.navegacion {
+  font: var(--headLine3) !important;
+}
+
+.nav-link {
+  color: var(--yellow) !important;
+}
