@@ -1,4 +1,5 @@
 @import "./navegacion.css";
+@import "./contenido-1.css";
 
 :root {
   --fontbase: "Roboto", sans-serif;

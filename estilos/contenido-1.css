@@ -1,0 +1,19 @@
+.principal {
+  border: 2px solid red;
+  color: white;
+}
+.principal-1 {
+  border: 2px solid green;
+}
+.principal-2 {
+  border: 2px solid blue;
+}
+.principal-3 {
+  border: 2px solid yellow;
+}
+.principal-1-1 {
+  border: 2px solid white;
+}
+.principal-1-2 {
+  border: 2px solid red;
+}
