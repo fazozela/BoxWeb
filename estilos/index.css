@@ -1,5 +1,11 @@
 @import "./navegacion.css";
-@import "./contenido-1.css";
+@import "./principal.css";
+@import "./contenido1.css";
+@import "./contenido2.css";
+@import "./contenido3.css";
+@import "./contenido4.css";
+@import "./contenido5.css";
+@import "./pie.css";
 
 :root {
   --fontbase: "Roboto", sans-serif;

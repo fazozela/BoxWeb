@@ -1,0 +1,13 @@
+.pie {
+  border: 2px solid red;
+  color: white;
+}
+.pie1 {
+  border: 2px solid green;
+}
+.pie2 {
+  border: 2px solid yellow;
+}
+.pie3 {
+  border: 2px solid rgb(0, 255, 255);
+}

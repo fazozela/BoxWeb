@@ -1,0 +1,13 @@
+.contenido4 {
+  border: 2px solid red;
+  color: white;
+}
+.contenido4-1 {
+  border: 2px solid green;
+}
+.contenido4-2 {
+  border: 2px solid rgb(255, 0, 212);
+}
+.contenido4-3 {
+  border: 2px solid rgb(10, 84, 243);
+}
