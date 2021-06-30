@@ -3,7 +3,8 @@
   color: white;
 }
 .principal-1 {
-  border: 2px solid green;
+  border: 5px solid green;
+  text-align: end;
 }
 .principal-2 {
   border: 2px solid blue;

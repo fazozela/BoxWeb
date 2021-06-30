@@ -11,7 +11,7 @@
   --fontbase: "Roboto", sans-serif;
   --headLine1: bold 81px/82px var(--fontbase);
   --headLine2: bold 30px/33px var(--fontbase);
-  --headLine3: 16px/18px var(--fontbase);
+  --headLine3: 400 16px/18px var(--fontbase);
   --headLine4: bold 81px/82px var(--fontbase);
   --black: #000000;
   --yellow: #d1be13;
