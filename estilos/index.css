@@ -6,6 +6,7 @@
 @import "./contenido4.css";
 @import "./contenido5.css";
 @import "./pie.css";
+@import "./splash.css";
 
 :root {
   --fontbase: "Roboto", sans-serif;
