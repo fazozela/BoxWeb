@@ -1,188 +1,457 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link href="http://fonts.cdnfonts.com/css/seravek-medium" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/seravek-extralight" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./estilos/index.css">
 
-    
+
     <title>Box</title>
 </head>
+
 <body>
 
-    <!-- splash screen -->
-    <div class="splash">
-        <h3 class="fade-in">Bienvenidos</h3>
-    </div>
-    <!-- fin splash screen -->
+    <div class="back-total">
 
-    <!-- Navegacion -->
-    <div class="navegacion">
-        <nav class="navbar navbar-expand-lg ">
-            <a class="navbar-brand" href="#">LOGO</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <h1 class="robolight">HOLA ROBOTO LIGHT</h1>
+    <h1 class="robomedium">HOLA ROBOTO MEDIUM</h1>
+    <h1 class="robobold">HOLA ROBOTO BOLD</h1>
+    <h1 class="robosuperbold">HOLA ROBOTO SUPER BOLD</h1>
+    <h1 class="sera">HOLA SERAVEK</h1>
+    <h1 class="seralight">HOLA SERAVEK LIGHT</h1> -->
+
+        <!-- splash screen CSS: splash.css -->
+        <div class="splash">
+            <h3 class="fade-in">Bienvenidos</h3>
+        </div>
+        <!-- fin splash screen -->
+
+        <!-- Navegacion CSS: navegacion.css-->
+        <div class="navegacion">
+            <nav class="navbar navbar-expand-lg ">
+                <a class="navbar-brand animate__delay-4s animate__animated animate__fadeInDown" href="#">LOGO</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto">
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"> 
-                            Link 1
-                        </a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            Link 2
-                        </a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            Link 3
-                        </a>
-                    </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            Link 4
-                        </a>
-                    </li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto animate__delay-2s animate__animated animate__fadeInLeftBig">
 
-                </ul>
-                    
-                <ul class="navbar-nav" style="flex-direction: column;">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            Link Afuera 1
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> 
+                            LINK 1
                         </a>
-                    </li>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            Link Afuera 2
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                            LINK 2
                         </a>
-                    </li>
-                </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                            LINK 3
+                        </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                            LINK 4
+                        </a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="navbar-nav animate__delay-3s animate__animated animate__fadeInUp" style="flex-direction: column;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                            LINK AFUERA 1
+                        </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                            LINK AFUERA 2
+                        </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+        <!-- Fin Navegacion -->
+
+        <!-- PRINCIPAL -->
+        <div class="container-fluid principal">
+            <div class="row">
+                <div class="col-2 principal-1 animate__delay-4s animate__animated animate__zoomInDown">
+                    <div >
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <div>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="col-8 principal-2">
+
+                    <div class="row">
+                        <div class="col principal-1-1" style="flex-direction: row;" data-aos="fade-right">
+                            <video class="animate__animated animate__delay-2s animate__bounceInLeft" width="350" loop autoplay>
+                                <source src="./assets/animaciones/Siguenos.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="col principal-1-2">
+                            <video class="animate__animated animate__delay-2s animate__bounceInDown" width="350" loop autoplay>
+                                <source src="./assets/animaciones/Socialmedia.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-2 principal-3">
+                    <i class="fas fa-stop animate__animated animate__bounce animate__slower animate__infinite"></i>
+                </div>
+            </div>
+        </div>
+        <!-- FIN PRINCIPAL -->
+
+        <!-- CONTENIDO 1 -->
+        <div class="container contenido1">
+            <div class="row">
+                <div class="col contenido1-1">
+                    <p class="contenido-texto-1">
+                        Alguien busca lo que tienes,
+                        <br> o quiere saber por qué
+                        <br> decidirse por ti
+                    </p>
+
+                    <p class="contenido-texto-2">
+                        ¿Sabes cómo atraerlos?
+                    </p>
+
+                    <p class="contenido-texto-3" data-aos="fade-left">
+                        Inbound Marketing
+                    </p>
+
+                    <button type="button" class="btn btn-outline-light">Conoce más</button>
+                </div>
+                <div class="col contenido1-2" data-aos="zoom-out-down">
+                    <img src="./assets/icon4.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- FIN CONTENIDO 1 -->
+
+        <!-- CONTENIDO 2 -->
+        <div class="container-fluid contenido2">
+            <div class="row contenido2-1">
+                <p class="contenido2-1-text" data-aos="fade-down">
+                    Si ya sabes como funciona Inbound Marketing, mira 
+                    <br>
+                    lo que podemos hacer por tu marca
+                </p>
+            </div>
+            <div class="row contenido2-2">
+                <div class="col contenido2-1-1">
+                    <p data-aos="zoom-out-right">
+                        <i class="fas fa-parachute-box"></i>
+                        <span>
+                            <a class="contenido2-link" href="">
+                                Marketing Digital
+                            </a>
+                        </span>
+                    </p>
+                    <p data-aos="zoom-out-right">
+                        <i class="fas fa-parachute-box"></i>
+                        <span>
+                            <a class="contenido2-link" href="">
+                                Consultoría Web
+                            </a>
+                        </span>
+                    </p>
+                    <p data-aos="zoom-out-right">
+                        <i class="fas fa-parachute-box"></i>
+                        <span>
+                            <a class="contenido2-link" href="">
+                                Consultoría in Company
+                            </a>
+                        </span>
+                    </p>
+                    <p data-aos="zoom-out-right">
+                        <i class="fas fa-parachute-box"></i>
+                        <span>
+                            <a class="contenido2-link" href="">
+                                Marketing Político
+                            </a>
+                        </span>
+                    </p>
+                </div>
+                <div class="col contenido2-1-2">
+                    <video width="450" loop autoplay>
+                        <source src="./assets/animaciones/Socialmedia.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <!-- FIN CONTENIDO 2 -->
+
+        <!-- CONTENIDO 3 -->
+        <div class="container-fluid contenido3">
+            <div class="row">
+                <div class="col contenido3-2">
+                    <img src="./assets/icon3.png" alt="">
+                </div>
+                <div class="col contenido3-1">
+                    <p class="contenido3-text-1" data-aos="zoom-out-left">
+                        Ahora cuéntanos
+                    </p>
+                    <p class="contenido3-text-2" data-aos="zoom-out-left">
+                        <span class="contenido3-text-2-1">
+                            ¿A dónde quieres
+                            <br>
+                            llegar?
+                        </span>
+                    </p>
+                    <p class="contenido3-text-3" data-aos="zoom-out-left">
+                        Cuenta con nosotros, déjanos
+                        <br>
+                        saber tus objetivos y seguro
+                        <br>
+                        podemos lograrlo juntos
+                    </p>
+                </div>
                 
             </div>
-        </nav>
-    </div>
-    <!-- Fin Navegacion -->
+        </div>
+        <!-- FIN CONTENIDO 3 -->
 
-    <!-- PRINCIPAL -->
-    <div class="container principal">
-        <div class="row">
-            <div class="col-2 principal-1">
-                <div>
-                    <i class="fab fa-facebook"></i>
-                </div>
-                <div>
-                    <i class="fab fa-instagram"></i>
-                </div>
-                <div>
-                    <i class="fab fa-twitter"></i>
-                </div>
+        <!-- CONTENIDO 4 -->
+        <div class="container-fluid contenido4">
+            <div class="row contenido4-1" data-aos="fade-up">
+                Aquí nuestros casos más recientes
             </div>
-            <div class="col-8 principal-2">
-                <div class="row">
-                    <div class="col principal-1-1" style="flex-direction: row;">
-                        <video width="200" loop autoplay>
-                            <source src="./assets/animaciones/Siguenos.mp4" type="video/mp4">
-                        </video>
-                        
+            <div class="row contenido4-2">
+                <div class="col contenido4-2-1" data-aos="fade-down-right">
+                    <div class="contenido4-2-1-title">
+                        <i class="fab fa-amazon" style="color: #FE7F16;"></i>
+                        AMAZON
                     </div>
-                    <div class="col principal-1-2">
-                        <video width="200" loop autoplay>
-                            <source src="./assets/animaciones/Socialmedia.mp4" type="video/mp4">
-                        </video>
+                    <div class="contenido4-2-1-text">
+                        <p>
+                            - Desarrollo Web
+                            <br>
+                            - Posicionamiento SEO
+                            <br>
+                            - Sistema de diseño
+                            <br>
+                            - App móvil b2b
+                        </p>
+                    </div>
+                    <div class="contenido4-2-1-link">
+                        <button type="button" class="btn btn-sm btn-outline-dark">Conoce más</button>
                     </div>
                 </div>
+                <div class="col contenido4-2-1" data-aos="fade-down-left">
+                    <div class="contenido4-2-1-title">
+                        <i class="fab fa-amazon" style="color: #FE7F16;"></i>
+                        AMAZON
+                    </div>
+                    <div class="contenido4-2-1-text">
+                        <p>
+                            - Desarrollo Web
+                            <br>
+                            - Posicionamiento SEO
+                            <br>
+                            - Sistema de diseño
+                            <br>
+                            - App móvil b2b
+                        </p>
+                    </div>
+                    <div class="contenido4-2-1-link">
+                        <button type="button" class="btn btn-sm btn-outline-dark">Conoce más</button>
+                    </div>
+                </div>
+                <div class="col contenido4-2-1" data-aos="fade-down-right">
+                    <div class="contenido4-2-1-title">
+                        <i class="fab fa-amazon" style="color: #FE7F16;"></i>
+                        AMAZON
+                    </div>
+                    <div class="contenido4-2-1-text">
+                        <p>
+                            - Desarrollo Web
+                            <br>
+                            - Posicionamiento SEO
+                            <br>
+                            - Sistema de diseño
+                            <br>
+                            - App móvil b2b
+                        </p>
+                    </div>
+                    <div class="contenido4-2-1-link">
+                        <button type="button" class="btn btn-sm btn-outline-dark">Conoce más</button>
+                    </div>
+                </div>
+                <div class="col contenido4-2-1" data-aos="fade-down-left">
+                    <div class="contenido4-2-1-title">
+                        <i class="fab fa-amazon" style="color: #FE7F16;"></i>
+                        AMAZON
+                    </div>
+                    <div class="contenido4-2-1-text">
+                        <p>
+                            - Desarrollo Web
+                            <br>
+                            - Posicionamiento SEO
+                            <br>
+                            - Sistema de diseño
+                            <br>
+                            - App móvil b2b
+                        </p>
+                    </div>
+                    <div class="contenido4-2-1-link">
+                        <button type="button" class="btn btn-sm btn-outline-dark">Conoce más</button>
+                    </div>
+                </div>
             </div>
-            <div class="col-2 principal-3">3</div>
+            <div class="row contenido4-3">
+                
+                <p class="contenido4-3-title" data-aos="fade-left">
+                    Queremos conocerte
+                </p>
+                
+                <p class="contenido4-3-text" data-aos="fade-right">
+                    Quedas cordialmente invitado a nuestra oficina en La Av. de los Shyris y Portugal. 
+                    <br>
+                    Siempre hay buen café, té o una refrescante cerveza, mientras nos cuentas como vamos a lograr tus metas juntos.
+                </p>
+
+                <div class="contenido4-3-link" data-aos="fade-up">
+                    <button type="button" class="btn btn-lg btn-outline-dark">Solicita una reunión</button>
+                </div>
+            </div>
         </div>
-    </div>
-    <!-- FIN PRINCIPAL -->
+        <!-- FIN CONTENIDO 4 -->
 
-    <!-- CONTENIDO 1 -->
-    <div class="container-fluid contenido1">
-        <div class="row">
-            <div class="col contenido1-1">1 (varios divs)</div>
-            <div class="col contenido1-2">2</div>
+        <!-- CONTENIDO 5 -->
+        <div class="container-fluid contenido5">
+            <div class="contenido5-1" data-aos="fade-down">
+                <p>
+                    Nos despedimos presentándote algunos de nuestros viejos amigos... los llevamos siempre en el corazón.
+                </p>
+            </div>
+
+            <div class="row contenido5-2" data-aos="flip-left">
+                
+                <div class="col">
+                    <i class="fab fa-4x fa-500px"></i>
+                </div>
+                <div class="col">
+                    <i class="fab fa-4x fa-pied-piper-alt"></i>
+                </div>
+                <div class="col">
+                    <i class="fab fa-4x fa-yahoo"></i>
+                </div>
+                <div class="col">
+                    <i class="fas fa-4x fa-pizza-slice"></i>
+                </div>
+                <div class="col">
+                    <i class="fas fa-4x fa-bone"></i>
+                </div>
+                <div class="col">
+                    <i class="fas fa-4x fa-igloo"></i>
+                </div>
+                <div class="col">
+                    <i class="fas fa-4x fa-pump-soap"></i>
+                </div>
+                <div class="col">
+                    <i class="fas fa-4x fa-chair"></i>
+                </div>
+                    
+            </div>
+
+            <div class="contenido5-3" data-aos="fade-right">
+                <p>
+                    Ha sido un placer contarte sobre lo que hacemos día a día y en lo que somos buenos, esperamos verte pronto y hacer cosas
+                    geniales en equipo.
+                </p>
+            </div>
+
+            <div class="row contenido5-4" data-aos="fade-left">
+                <p>
+                    ¡Hasta pronto!
+                </p>
+            </div>
         </div>
-    </div>
-    <!-- FIN CONTENIDO 1 -->
+        <!-- FIN CONTENIDO 5 -->
 
-    <!-- CONTENIDO 2 -->
-    <div class="container-fluid contenido2">
-        <div class="row contenido2-1">1</div>
-        <div class="row contenido2-2">
-            <div class="col contenido2-1-1">1</div>
-            <div class="col contenido2-1-2">2</div>
+        <!-- FOOTER -->
+        <div class="container-fluid pie">
+            <div class="row">
+                <div class="col pie1">
+                    <img src="./assets/icon.png" width="150px" alt="">
+                    <p class="pie-icons">
+                        <i class="fab fa-3x fa-facebook"></i>
+                        <i class="fab fa-3x fa-instagram"></i>
+                        <i class="fab fa-3x fa-twitter"></i>
+                    </p>
+                </div>
+            </div>
         </div>
-    </div>
-    <!-- FIN CONTENIDO 2 -->
+        <!-- FIN FOOTER -->
 
-    <!-- CONTENIDO 3 -->
-    <div class="container-fluid contenido3">
-        <div class="row">
-            <div class="col contenido3-1">1 (varios divs)</div>
-            <div class="col contenido3-2">2</div>
-        </div>
     </div>
-    <!-- FIN CONTENIDO 3 -->
-    
-    <!-- CONTENIDO 4 -->
-    <div class="container-fluid contenido4">
-        <div class="row contenido4-1">1</div>
-        <div class="row contenido4-2">2</div>
-        <div class="row contenido4-3">3</div>
-    </div>
-    <!-- FIN CONTENIDO 4 -->
-
-    <!-- CONTENIDO 5 -->
-    <div class="container-fluid contenido5">
-        <div class="row contenido5-1">1</div>
-        <div class="row contenido5-2">2</div>
-        <div class="row contenido5-3">3</div>
-    </div>
-    <!-- FIN CONTENIDO 5 -->
-
-    <!-- FOOTER -->
-    <div class="container-fluid pie">
-        <div class="row">
-            <div class="col pie1">1</div>
-            <div class="col pie2">2</div>
-            <div class="col pie3">3</div>
-        </div>
-    </div>
-    <!-- FIN FOOTER -->
-
 
     <!-- JAVASCRIPT -->
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <script src="./js/splash.js"></script>
-    <!-- END JAVASCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            // Global settings:
+            //disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            //startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            //initClassName: 'aos-init', // class applied after initialization
+            //animatedClassName: 'aos-animate', // class applied on animation
+            //useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            //disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            //debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            //throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            //offset: 120, // offset (in px) from the original trigger point
+            //delay: 0, // values from 0 to 3000, with step 50ms
+            //duration: 400, // values from 0 to 3000, with step 50ms
+            //easing: 'ease', // default easing for AOS animations
+            //once: false, // whether animation should happen only once - while scrolling down
+            //mirror: true, // whether elements should animate out while scrolling past them
+            //anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+    </script>
 
 </body>
+
 </html>
