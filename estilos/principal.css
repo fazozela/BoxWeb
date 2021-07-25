@@ -1,20 +1,37 @@
 .principal {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   color: white;
+  margin-block-start: 15rem;
 }
+
 .principal-1 {
-  border: 5px solid green;
-  text-align: end;
+  /* border: 5px solid green; */
+  text-align: center;
+  margin-block: auto;
 }
+
 .principal-2 {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
+
 .principal-3 {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffd50f;
 }
+
 .principal-1-1 {
-  border: 2px solid white;
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .principal-1-2 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

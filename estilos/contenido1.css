@@ -1,10 +1,28 @@
 .contenido1 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   color: white;
+  margin-block-start: 18rem;
+  padding-block-end: 8rem;
 }
 .contenido1-1 {
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 .contenido1-2 {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.contenido-texto-1 {
+  font: var(--robotomedium-title-1) !important;
+  margin-block-end: 3rem;
+}
+.contenido-texto-2 {
+  font: var(--robotolight-title-1) !important;
+  margin-block-end: 2rem;
+  color: #ffd50f;
+}
+.contenido-texto-3 {
+  font: var(--robotosuperbold-title-1) !important;
+  margin-block-end: 2rem;
 }

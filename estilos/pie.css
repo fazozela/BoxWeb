@@ -1,13 +1,20 @@
 .pie {
-  border: 2px solid red;
-  color: white;
+  /* border: 2px solid red; */
+  background: #eeeeee;
+  color: black;
 }
 .pie1 {
-  border: 2px solid green;
+  /* border: 2px solid green; */
+  text-align: center;
+  display: block;
+  position: relative;
+  top: -40px;
 }
-.pie2 {
-  border: 2px solid yellow;
-}
-.pie3 {
-  border: 2px solid rgb(0, 255, 255);
+.pie-icons {
+  color: #747474;
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  grid-gap: 5rem;
+  margin-block-start: 2rem;
 }

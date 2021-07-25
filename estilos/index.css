@@ -7,17 +7,82 @@
 @import "./contenido5.css";
 @import "./pie.css";
 @import "./splash.css";
-
 :root {
   --fontbase: "Roboto", sans-serif;
-  --headLine1: bold 81px/82px var(--fontbase);
-  --headLine2: bold 30px/33px var(--fontbase);
-  --headLine3: 400 16px/18px var(--fontbase);
-  --headLine4: bold 81px/82px var(--fontbase);
+  --fontsecondary: "Seravek Medium", sans-serif;
+  --fontterciary: "Seravek ExtraLight", sans-serif;
+
+  --robotolight: 100 0.8rem/18px var(--fontbase);
+  --robotolight-title-1: 300 1.6rem var(--fontbase);
+  --robotolight-link: 300 0.9rem var(--fontbase);
+  --robotolight-text-1: 200 1.9rem var(--fontbase);
+  --robotolight-text-2: 400 1.3rem var(--fontbase);
+  --robotolight-text-3: 300 1.3rem var(--fontbase);
+
+  --robotomedium: 400 1rem var(--fontbase);
+  --robotomedium-title-1: 400 1.8rem var(--fontbase);
+
+  --robotobold: 700 1.5rem var(--fontbase);
+  --robotobold-title: 700 2rem var(--fontbase);
+
+  --robotosuperbold: 900 2rem var(--fontbase);
+  --robotosuperbold-title-1: 900 5rem var(--fontbase);
+  --robotosuperbold-text-1: 900 3rem var(--fontbase);
+
+  --seravek: 100 1rem var(--fontsecondary);
+  --seravek-title: 100 1.6rem var(--fontsecondary);
+  --seravek-text-1: 100 1.2rem var(--fontsecondary);
+  --seravek-text-2: 100 1.4rem var(--fontsecondary);
+
+  --seraveklight: var(--fontterciary);
+  --seraveklight-title: 2rem var(--fontterciary);
+  --seraveklightnav: 0.7rem var(--fontsecondary);
+  --seraveklight-text-1: 1.4rem var(--fontterciary);
+
   --black: #000000;
-  --yellow: #d1be13;
+  --yellow: yellow;
 }
 
 body {
-  background: var(--black);
+  /* background-image: url("/assets/imgback.png"); */
+  background: black;
+}
+
+/* .back-total {
+    background: rgba(0, 0, 0, 0.7);
+} */
+
+.robolight {
+  color: white;
+  font: var(--robotolight) !important;
+}
+
+.robomedium {
+  color: white;
+  font: var(--robotomedium) !important;
+}
+
+.robobold {
+  color: white;
+  font: var(--robotobold) !important;
+}
+
+.robosuperbold {
+  color: white;
+  font: var(--robotosuperbold) !important;
+}
+
+.robolight {
+  color: white;
+  font: var(--robotolight) !important;
+}
+
+.sera {
+  color: white;
+  font: var(--seravek) !important;
+}
+
+.seralight {
+  color: white;
+  font: var(--seraveklight) !important;
 }
